@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Основные веб-шрифты</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f9f9f9;
+        padding: 20px;
+     }
+      
+     .container {
+       max-width: 1200px;
+       margin: 0 auto;
+     }
+      
+     header {
+       text-align: center;
+       margin-bottom: 40px;
+       padding: 30px 0;
+       background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+       color: white;
+       border-radius: 10px;
+       box-shadow: 0 4px 15px rgda(0, 0, 0, 0.1);
+    }
+      
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+      
+    .subtitle {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .fonts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 25px;
+      margin-bottom: 40px;
+    }
+
+    .font-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgda(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .font-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgda(0, 0, 0, 0.15);
+    }
+    .font-preview {
+      padding: 25px;
+      min-height: 180px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .font-name {
+      font-size: 1.8rem;
+      margin-bottom: 15x;
+      font-weight: bold;
+    }
+
+    .font-sample {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .font-description {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .font-link {
+      display: inline-block;
+      padding: 8px 15px;
+      background-color: #2575fc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 500;
+      transition: background-color 0.3s;
+    }
+
+    .font-link:hover {
+      background-color: #1a5fd8;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      color: #666;
+      border-top: 1px solid #eee;
+    }
+
+    @media (max-width: 768px) {
+      .font-grid {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Основные веб-шрифты</h1>
+        <p class="subtitle">Популярные шрифты для вашего сайта с ссылками на ресурсы</p>
+      </header>
+
+      <section class="intro">
+        <p>Правильный выбор шрифта играет важную роль всоздании привлекательного и удобного для чтения веб-сайта. Ниже представлены популярные шрифты, которые часто используются в веб-дизайне.</p>
+      </section>
+
+      <div class="fonts-grid">
+        <div class="font-card">
+          <div class="font-preview" style="font-family: 'Roboto', sans-serif;">
+            <h2 class="font-name">Roboto</h2>
+            <p class="font-sample">Пример текста на Roboto</p>
+            <p class="font-description">Современный гротескный шрифт от Google, созданный для удобства чтения на экранах.</p>
+            <a href="https://fonts.google.com/specimen/Roboto" class="font-link" target="_blank">Скачать</a>
+          </div>
+        </div>
+        <div class="font-card"
+  </body>
